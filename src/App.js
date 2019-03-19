@@ -19,7 +19,7 @@ class App extends Component {
   handleVisibilityChange = () => {    
     window.addEventListener("visibilitychange", () => {
       if (document.hidden) {
-        this.changeFavicon("http://www.iconarchive.com/download/i91181/icons8/windows-8/Media-Controls-Pause.ico")
+        this.changeFavicon("http://icons.iconarchive.com/icons/icons8/windows-8/256/Media-Controls-Pause-icon.png")
         this.state.player.pauseVideo()
       } else {
         this.changeFavicon("https://cdn1.iconfinder.com/data/icons/material-audio-video/20/play-circle-fill-128.png")        
