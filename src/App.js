@@ -54,7 +54,7 @@ class App extends Component {
           <Youtube
             opts={opts}
             onPlay={this._onPlay}
-            videoId="VIEe2UXeGDY" />
+            videoId="nx1tOOc_3fU" />
         </header>
       </div>
     );
